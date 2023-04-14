@@ -28,13 +28,13 @@ class ConsumersResponseSerializer:
         for consumer in self.data:
             mapped_object["features"].append({
                 "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": [consumer["lng"], consumer["lat"]]},
+                "geometry": {"type": "Point", "coordinates": [consumer.lng, consumer.lat]},
                 "properties": {
-                    "id": str(consumer["id"]),
-                    "amount_due": consumer["amount_due"],
-                    "previous_jobs_count": consumer["previous_jobs_count"],
-                    "status": consumer["status"],
-                    "street": consumer["street"]
+                    "id": str(consumer.id),
+                    "amount_due": consumer.amount_due,
+                    "previous_jobs_count": consumer.previous_jobs_count,
+                    "status": consumer.status,
+                    "street": consumer.street
                 }
             })
 

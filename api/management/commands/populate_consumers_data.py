@@ -12,7 +12,7 @@ from django.db import connection
 
 logger = logging.getLogger("django.populate_consumers_data")
 
-MAX_NO_OF_THREADS = 100
+MAX_NO_OF_THREADS = 50
 
 
 def insert_data_to_db(data):

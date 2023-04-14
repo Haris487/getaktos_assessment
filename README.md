@@ -2,6 +2,16 @@
 
 > Take home assessment of GETAKTOS
 
+### Completed Tasks
+
+1. Created a command that populate data form csv to datastore ✓
+2. API endpoint that uses request params to filter the set of consumers ✓
+3. API endpoint URL is /consumers ✓
+4. API responds with valid GeoJSON ✓
+5. API should correctly filter any combination of API parameters ✓
+6. Pagination via web linking ✓
+7. Unit Tests for the endpoint ✓
+8. Added rate-limiting 10 requests / second ✓
 ### Prerequisite
 
 1. [Install Python 3.9.6](https://www.python.org/downloads/)
@@ -42,6 +52,10 @@ Run this command:
 
 ```sql
 CREATE USER getaktos WITH ENCRYPTED PASSWORD 'getaktos';
+```
+
+```sql
+ALTER USER getaktos CREATEDB;
 ```
 
 **3**

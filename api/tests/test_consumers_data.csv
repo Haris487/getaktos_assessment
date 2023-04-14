@@ -1,0 +1,12 @@
+id,street,status,previous_jobs_count,amount_due,lat,lng
+0,579 Mission Trl,collected,1,1000,33.38935574,-112.0882128
+1,578 Blake Ave,in_progress,2,1000,33.41247393,-112.2808164
+2,177 Blake Dv,collected,1,1001,33.45330367,-112.2324875
+3,367 Pine Dv,in_progress,2,1001,33.46031995,-111.8886903
+4,346 Euclid Wl,in_progress,1,1001,33.459174,-111.9249067
+5,713 Post Vis,collected,1,1001,33.38734297,-112.356915
+6,111 Franklin Wl,collected,1,1002,33.39681662,-112.2541438
+7,751 2nd Pl,collected,1,1002,33.52607029,-111.9301787
+8,651 Page Pl,in_progress,1,1002,33.37018265,-112.2316425
+9,339 Sutter Wl,active,2,1002,33.4215419,-112.2469648
+10,293 9th St,in_progress,3,1002,33.56081451,-111.9265168
